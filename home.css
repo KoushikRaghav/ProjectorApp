@@ -1,0 +1,233 @@
+body
+ {
+  font-family: 'Lato', sans-serif;
+ }
+a 
+{
+  color: #00B7FF;
+}
+#frigh
+{
+  float: right;
+}
+#flef
+{
+  clear: both;
+  float: left;
+  width: 50%;
+}
+
+.body
+ {
+  background-color: #442D4B;
+  color: #ffffff;
+ }
+.fright
+ {
+  clear: both;
+  float: right;
+ }
+.fleft
+ {
+  clear: both;
+  float: left;
+ }
+ .poster img
+ {
+  padding: 5%;
+  width:50%;
+ }
+.clear
+ {
+  clear: both;
+  content: '';
+ }
+header .logo 
+ {
+  width: 200px;
+ }
+header ul 
+ {
+  list-style-type: none;
+ }
+header ul li 
+ {
+  display: inline-block;
+  padding: 10px 15px;
+ }
+header ul li a
+ {
+  color: #ffcb59;
+  text-decoration: none;
+  font-size: .8rem;
+ }
+header,section ,footer
+ {
+    padding: 40px;
+    min-height: 40px;
+ }
+.btn-grp
+ {
+    margin-left: 40px;
+ }
+.link 
+ {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+    display: inline-block;
+ }
+footer
+ {
+  bottom: 0;
+  background-color:black;
+  padding: 20px 0;
+ }
+footer .logo
+ {
+  width: 200px;
+  margin-right: 40px;
+ }
+
+/* ADD MOVIE PAGE */
+
+.add_movie_form
+ {
+    margin: 20px auto;
+    width: 500px;
+}
+.add_movie_form h2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: normal;
+}
+.add_movie_form label
+{
+  font-size: 0.9rem;
+}
+
+.add_movie_form input, .add_movie_form textarea, .add_movie_form select{
+  display: block;
+    width: 100%;
+    background: #442D4B;
+    border: 1px solid white;
+    color: inherit;
+    font-size: 1.2rem;
+    font-family: inherit;
+    padding: 0 5px;
+    margin: 7px 0 15px;
+    box-sizing: border-box;
+}
+.add_movie_form input
+{
+    height: 40px;
+}
+.add_movie_form textarea
+{
+    resize: none;
+}
+.add_movie_form .part
+{
+    display: inline-block;
+    width: 50%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.add_movie_form .part:first-child
+{
+    padding-right: 10px;
+        padding-left: 0;
+}
+.add_movie_form select::-ms-expand
+{
+    display: none;
+}
+.add_movie_form select
+{
+    border-radius: 0;
+    outline : none;
+  overflow : hidden;
+  background : url("../images/downarrow.png") no-repeat right;
+    background-position-x: 95%;
+    background-size: 12px;
+    height: 40px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+}
+.add_movie_form button
+{
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 0;
+}
+section
+{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.eachMovie 
+{
+  float: left;
+  margin: 30px;
+  padding-left: 50px;
+}
+.eachMovie img
+{
+    padding: 2px;
+    width: 250px;
+    height: 300px;
+}
+
+    
+.stars img
+{ 
+  padding-left: 10px;  
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+h1
+{
+  size: 25px;
+}
+
+
+.content
+ {
+  margin: 0px;
+ }
+.back
+ {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  vertical-align: super;
+ }
+.arrow
+ {
+  width: 22px;
+  margin-right: 5px;
+ }
+.name
+ {
+  font-size: 20px;
+  text-transform: uppercase;
+ } 
+
+
+
+
